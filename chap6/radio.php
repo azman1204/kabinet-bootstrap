@@ -1,5 +1,5 @@
 <?php include '../asset/header.php' ?>
 <div class="container">
-  <legend>Title Here</legend>
+  <legend>Radio Button</legend>
 </div>
 <?php include '../asset/footer.php' ?>

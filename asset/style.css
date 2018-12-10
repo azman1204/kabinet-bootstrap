@@ -1,4 +1,17 @@
+body {
+  height: 100vh;
+}
+
+.my-content {
+  min-height: 90%;
+  border: 2px solid #ddd;
+}
+
 .my-col {
   border: 1px solid #ddd;
   min-height: 100px;
+}
+
+legend {
+  color:dodgerblue;
 }
