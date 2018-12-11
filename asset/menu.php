@@ -50,7 +50,9 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown6">
           <a class="dropdown-item" href="../chap6/button.php">Button</a>
-          <a class="dropdown-item" href="../chap6/table.php">Table</a>
+          <a class="dropdown-item" href="../chap6/checkbox.php">Checkbox</a>
+          <a class="dropdown-item" href="../chap6/radio.php">Radio</a>
+          <a class="dropdown-item" href="../chap6/form.php">Form</a>
         </div>
       </li>
 

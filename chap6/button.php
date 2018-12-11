@@ -17,6 +17,31 @@
   <button type="button" class="btn btn-outline-info">Info</button>
   <button type="button" class="btn btn-outline-warning">Warning</button>
   <button type="button" class="btn btn-outline-danger">Danger</button>
+
+  <legend>Button Group</legend>
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-secondary">Left</button>
+    <button type="button" class="btn btn-secondary">Middle</button>
+    <button type="button" class="btn btn-secondary">Right</button>
+  </div>
+
+  <legend>Button Group Vertical</legend>
+  <div class="btn-group-vertical" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-secondary">Left</button>
+    <button type="button" class="btn btn-secondary">Middle</button>
+    <button type="button" class="btn btn-secondary">Right</button>
+  </div>
+
+  <div class="btn-group">
+    <button id="my-btn" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+    <div class="dropdown-menu" aria-labelledby="my-btn">
+      <a class="dropdown-item" href="#">Link</a>
+      <a class="dropdown-item" href="#">Link Two</a>
+      <a class="dropdown-item" href="#">Link Three</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Link Four</a>
+    </div>
+  </div>
 </div>
 
 <?php include '../asset/footer.php' ?>
